@@ -1,15 +1,50 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>TIC-TAC-TOE</title>
-    </head>
-    <body>
-        <h1>TIC-YAC-TOE GAME</h1>
-        <h2>Try to beat our code!!!</h2>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+		<title>Tic Tac Toi</title>
+		<style>
+			table, td {
+			border: 1px solid black;
+			text-align: center;
+			}
 
+			.marginLeft {
+			margin-left: 5px;
+			}
+			.marginTop {
+				margin-top: 15px;
+			}
+			.cell{
+				cursor: pointer;
+			}
+			.textcenter{
+				text-align: center;
+			}
+			#result{
+				float: right;
+				margin-right: 200px;
+			}
+		</style>
+	</head>
+<body>
+	
+	<form>Type in a number:
+  		<input id="input" type="text" value="" />
+		<input type="button" onclick="generateFields()" value="add row(s)">
+		<p id="result">result is here</p>
+		<p id = "notification">Notifacations : </p>
+	</form>
+	<br/>
+	<table id="table" border="1">
 
-        <table>
-            
-        </table>
+	</table>
 
-    </body>
+	
+	<script type="text/javascript" src="script.js">
+
+	</script>
+
+</body>
 </html>
